@@ -1,4 +1,6 @@
-fileStorage:
-  host: 127.0.0.1
-  port: 27017
-  database: test_gridfs
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      grid-fs-database: test_gridfs
